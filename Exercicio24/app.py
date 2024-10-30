@@ -1,18 +1,34 @@
+#*args (Parametros com variáveis)
 
-def indentificacao(*args, **kwargs):
+def justaposicao(*args):
 
-    for n in args:
-        nome = n
-        print(f"Nome: {nome}")
-
-
-    for key, value in kwargs.items():
-
-        idade = key
-        sexo = value
-
-        print(f"{idade}:")
-        print(f"{sexo}:")
+    resultado = 0
+    for i in args:
+        resultado+= 1
+    return resultado
 
 
-indentificacao('Victor', idade = 19, sexo = 'Masculino')
+
+resultado_justaposicao = justaposicao(1, 2, 3, 4, 5, 10, 11, 20, 40)
+print(resultado_justaposicao)
+
+#*kwargs (Parametros nomeados)
+
+
+def parametros_nomeados(**kwargs):
+    print(kwargs)
+
+
+
+parametros_nomeados(nome = "Luiz", idade = 18, estado_civil = "Solteiro")
+
+
+
+
+
+
+
+
+
+
+

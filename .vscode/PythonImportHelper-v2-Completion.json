@@ -1,0 +1,513 @@
+[
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "medicos",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "medicos",
+        "description": "medicos",
+        "detail": "medicos",
+        "documentation": {}
+    },
+    {
+        "label": "nome_frase",
+        "kind": 5,
+        "importPath": "Exercicio1.app",
+        "description": "Exercicio1.app",
+        "peekOfCode": "nome_frase = str(input(\"Digite uma frase ou nome: \\n\")).strip().upper()\nfrase_separada = nome_frase.split()\ncaracteres = ''.join(frase_separada)\nfrase_invertida = ''\nfor i in range(len(caracteres) - 1, -1, -1):\n    frase_invertida += caracteres[i]\nprint(caracteres, frase_invertida)\nif (frase_invertida == caracteres):\n    print(\"Esta frase/nome é um palíndromo!!\")\nelse:",
+        "detail": "Exercicio1.app",
+        "documentation": {}
+    },
+    {
+        "label": "frase_separada",
+        "kind": 5,
+        "importPath": "Exercicio1.app",
+        "description": "Exercicio1.app",
+        "peekOfCode": "frase_separada = nome_frase.split()\ncaracteres = ''.join(frase_separada)\nfrase_invertida = ''\nfor i in range(len(caracteres) - 1, -1, -1):\n    frase_invertida += caracteres[i]\nprint(caracteres, frase_invertida)\nif (frase_invertida == caracteres):\n    print(\"Esta frase/nome é um palíndromo!!\")\nelse:\n    print(\"Esta frase nao é um palindromo\")",
+        "detail": "Exercicio1.app",
+        "documentation": {}
+    },
+    {
+        "label": "caracteres",
+        "kind": 5,
+        "importPath": "Exercicio1.app",
+        "description": "Exercicio1.app",
+        "peekOfCode": "caracteres = ''.join(frase_separada)\nfrase_invertida = ''\nfor i in range(len(caracteres) - 1, -1, -1):\n    frase_invertida += caracteres[i]\nprint(caracteres, frase_invertida)\nif (frase_invertida == caracteres):\n    print(\"Esta frase/nome é um palíndromo!!\")\nelse:\n    print(\"Esta frase nao é um palindromo\")",
+        "detail": "Exercicio1.app",
+        "documentation": {}
+    },
+    {
+        "label": "frase_invertida",
+        "kind": 5,
+        "importPath": "Exercicio1.app",
+        "description": "Exercicio1.app",
+        "peekOfCode": "frase_invertida = ''\nfor i in range(len(caracteres) - 1, -1, -1):\n    frase_invertida += caracteres[i]\nprint(caracteres, frase_invertida)\nif (frase_invertida == caracteres):\n    print(\"Esta frase/nome é um palíndromo!!\")\nelse:\n    print(\"Esta frase nao é um palindromo\")",
+        "detail": "Exercicio1.app",
+        "documentation": {}
+    },
+    {
+        "label": "cadastro",
+        "kind": 5,
+        "importPath": "Exercicio10.app",
+        "description": "Exercicio10.app",
+        "peekOfCode": "cadastro = {'Nome': 'Paulo',\n            'Sexo': 'Masculino',\n            'Nacionalidade': 'Brasileiro',\n            'Estado Civil': 'Divorciado',\n            'Escolaridade': ['Ensino Superior', 'Doutorado'],\n            'Ocupacao': 'Professor',\n            'Renda': '1999.00 - 2999.00'}\nprint(cadastro)",
+        "detail": "Exercicio10.app",
+        "documentation": {}
+    },
+    {
+        "label": "calcular_media_aluno",
+        "kind": 2,
+        "importPath": "Exercicio11.app",
+        "description": "Exercicio11.app",
+        "peekOfCode": "def calcular_media_aluno(dados_aluno):\n    notas = []\n    for index in dados_aluno:\n        if len(index['Notas']) > 0:\n            temp = round(sum(index['Notas']) / len(index['Notas']))\n        else:\n            temp = 0\n        notas.append({'Nome': index['Nome'],\n                      'Media': temp})\n    print(notas)",
+        "detail": "Exercicio11.app",
+        "documentation": {}
+    },
+    {
+        "label": "dados_aluno",
+        "kind": 5,
+        "importPath": "Exercicio11.app",
+        "description": "Exercicio11.app",
+        "peekOfCode": "dados_aluno = [{'Nome': 'Victor Martins Ferreira Brandao Ameno',\n                'Notas': [6, 9, 6]}]\ndef calcular_media_aluno(dados_aluno):\n    notas = []\n    for index in dados_aluno:\n        if len(index['Notas']) > 0:\n            temp = round(sum(index['Notas']) / len(index['Notas']))\n        else:\n            temp = 0\n        notas.append({'Nome': index['Nome'],",
+        "detail": "Exercicio11.app",
+        "documentation": {}
+    },
+    {
+        "label": "novo_dict",
+        "kind": 5,
+        "importPath": "Exercicio11.app",
+        "description": "Exercicio11.app",
+        "peekOfCode": "novo_dict = calcular_media_aluno(dados_aluno)",
+        "detail": "Exercicio11.app",
+        "documentation": {}
+    },
+    {
+        "label": "sistema",
+        "kind": 5,
+        "importPath": "Exercicio12.app",
+        "description": "Exercicio12.app",
+        "peekOfCode": "sistema = {\n    'Pergunta 01': {\n        'Pergunta': 'Quanto é 5 x 5?',\n        'Alternativas': {'a': '10', 'b': '15', 'c': '20', 'd': '25'},\n        'Resposta_certa': 'd'\n    },\n    'Pergunta 02': {\n        'Pergunta': 'Qual é a Capital da Italia?',\n        'Alternativas': {'a': 'Madri', 'b': 'Barcelona', 'c': 'Veneza', 'd': 'Roma'},\n        'Resposta_certa': 'd' ",
+        "detail": "Exercicio12.app",
+        "documentation": {}
+    },
+    {
+        "label": "respostas_certas",
+        "kind": 5,
+        "importPath": "Exercicio12.app",
+        "description": "Exercicio12.app",
+        "peekOfCode": "respostas_certas = 0\nfor pkeys, pvalues in sistema.items():\n    print(f'{pkeys}: {pvalues['Pergunta']}')\n    for rkeys, rvalues in pvalues['Alternativas'].items():\n        print(f'[{rkeys}: {rvalues}]')\n    resposta = input(\"Digite a Resposta: [a], [b], [c], [d] \\n\")\n    if (resposta == pvalues['Resposta_certa']):\n        print(\"Resposta Correta!!!\")\n        respostas_certas += 1\n    else:",
+        "detail": "Exercicio12.app",
+        "documentation": {}
+    },
+    {
+        "label": "funcao",
+        "kind": 2,
+        "importPath": "Exercicio13.app",
+        "description": "Exercicio13.app",
+        "peekOfCode": "def funcao1 () -> None:\n    pass",
+        "detail": "Exercicio13.app",
+        "documentation": {}
+    },
+    {
+        "label": "funcao",
+        "kind": 2,
+        "importPath": "Exercicio14.app",
+        "description": "Exercicio14.app",
+        "peekOfCode": "def funcao1 () -> None:\n    pass\n    variavel = funcao1()",
+        "detail": "Exercicio14.app",
+        "documentation": {}
+    },
+    {
+        "label": "funcao",
+        "kind": 2,
+        "importPath": "Exercicio15.app",
+        "description": "Exercicio15.app",
+        "peekOfCode": "def funcao1 ():\n    return 5\nprint(funcao1())",
+        "detail": "Exercicio15.app",
+        "documentation": {}
+    },
+    {
+        "label": "funcao",
+        "kind": 2,
+        "importPath": "Exercicio16.app",
+        "description": "Exercicio16.app",
+        "peekOfCode": "def funcao():\n    print(\"Bem vindo!!!\")\nfuncao()",
+        "detail": "Exercicio16.app",
+        "documentation": {}
+    },
+    {
+        "label": "funcao",
+        "kind": 2,
+        "importPath": "Exercicio17.app",
+        "description": "Exercicio17.app",
+        "peekOfCode": "def funcao(nome):\n    print(f\"Olá {nome} Bem vindo a nossa Aplicacao!\")\nnome = str(input(\"Digite o seu Nome: \\n\"))\nnome = funcao(nome)",
+        "detail": "Exercicio17.app",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Exercicio17.app",
+        "description": "Exercicio17.app",
+        "peekOfCode": "nome = str(input(\"Digite o seu Nome: \\n\"))\nnome = funcao(nome)",
+        "detail": "Exercicio17.app",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Exercicio17.app",
+        "description": "Exercicio17.app",
+        "peekOfCode": "nome = funcao(nome)",
+        "detail": "Exercicio17.app",
+        "documentation": {}
+    },
+    {
+        "label": "elevar_valor_aoquadrado",
+        "kind": 2,
+        "importPath": "Exercicio18.app",
+        "description": "Exercicio18.app",
+        "peekOfCode": "def elevar_valor_aoquadrado(valor):\n    return valor ** 2\nvalor = int(input(\"Digite um valor: \\n\"))\nprint(f\"{valor} elevado ao quadrado é {elevar_valor_aoquadrado(valor)}\")",
+        "detail": "Exercicio18.app",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "Exercicio18.app",
+        "description": "Exercicio18.app",
+        "peekOfCode": "valor = int(input(\"Digite um valor: \\n\"))\nprint(f\"{valor} elevado ao quadrado é {elevar_valor_aoquadrado(valor)}\")",
+        "detail": "Exercicio18.app",
+        "documentation": {}
+    },
+    {
+        "label": "boas_vinda",
+        "kind": 2,
+        "importPath": "Exercicio19.app",
+        "description": "Exercicio19.app",
+        "peekOfCode": "def boas_vindas (nome, sobrenome):\n    print(f\"Olá {nome} {sobrenome}, boas vindas a nossa Aplicacao!\")\nnome = str(input(\"Digite o seu nome: \\n\"))\nsobrenome = str(input(\"Digite o seu sobrenome: \\n\"))\nboas_vindas(nome,sobrenome)",
+        "detail": "Exercicio19.app",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Exercicio19.app",
+        "description": "Exercicio19.app",
+        "peekOfCode": "nome = str(input(\"Digite o seu nome: \\n\"))\nsobrenome = str(input(\"Digite o seu sobrenome: \\n\"))\nboas_vindas(nome,sobrenome)",
+        "detail": "Exercicio19.app",
+        "documentation": {}
+    },
+    {
+        "label": "sobrenome",
+        "kind": 5,
+        "importPath": "Exercicio19.app",
+        "description": "Exercicio19.app",
+        "peekOfCode": "sobrenome = str(input(\"Digite o seu sobrenome: \\n\"))\nboas_vindas(nome,sobrenome)",
+        "detail": "Exercicio19.app",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Exercicio2.app",
+        "description": "Exercicio2.app",
+        "peekOfCode": "nome = str(input(\"Digite um nome: \\n\"))\nprint(f\"Bem vindo {nome}!\")",
+        "detail": "Exercicio2.app",
+        "documentation": {}
+    },
+    {
+        "label": "welcome",
+        "kind": 2,
+        "importPath": "Exercicio20.app",
+        "description": "Exercicio20.app",
+        "peekOfCode": "def welcome(nome, nacionalidade = \"Americano\") -> None:\n    print(f\"Olá {nome}, Voce é {nacionalidade}\")\nnome = input(\"Digite o seu nome: \\n\")\nexemplo1 = welcome(nome)\nnacionalidade = input(\"Digite a sua nacionalidade: \\n\")\nexemplo2 = welcome(nome, nacionalidade)",
+        "detail": "Exercicio20.app",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "Exercicio20.app",
+        "description": "Exercicio20.app",
+        "peekOfCode": "nome = input(\"Digite o seu nome: \\n\")\nexemplo1 = welcome(nome)\nnacionalidade = input(\"Digite a sua nacionalidade: \\n\")\nexemplo2 = welcome(nome, nacionalidade)",
+        "detail": "Exercicio20.app",
+        "documentation": {}
+    },
+    {
+        "label": "exemplo1",
+        "kind": 5,
+        "importPath": "Exercicio20.app",
+        "description": "Exercicio20.app",
+        "peekOfCode": "exemplo1 = welcome(nome)\nnacionalidade = input(\"Digite a sua nacionalidade: \\n\")\nexemplo2 = welcome(nome, nacionalidade)",
+        "detail": "Exercicio20.app",
+        "documentation": {}
+    },
+    {
+        "label": "nacionalidade",
+        "kind": 5,
+        "importPath": "Exercicio20.app",
+        "description": "Exercicio20.app",
+        "peekOfCode": "nacionalidade = input(\"Digite a sua nacionalidade: \\n\")\nexemplo2 = welcome(nome, nacionalidade)",
+        "detail": "Exercicio20.app",
+        "documentation": {}
+    },
+    {
+        "label": "exemplo2",
+        "kind": 5,
+        "importPath": "Exercicio20.app",
+        "description": "Exercicio20.app",
+        "peekOfCode": "exemplo2 = welcome(nome, nacionalidade)",
+        "detail": "Exercicio20.app",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa",
+        "kind": 2,
+        "importPath": "Exercicio21.app",
+        "description": "Exercicio21.app",
+        "peekOfCode": "def pessoa(nome, idade = 18, funcao = 'engenheiro de software'):\n    print(f\"{nome} tem {idade} anos, e sua funcao é {funcao}\")\npessoa('Victor', idade = 19, funcao = 'programador')",
+        "detail": "Exercicio21.app",
+        "documentation": {}
+    },
+    {
+        "label": "msg",
+        "kind": 2,
+        "importPath": "Exercicio22.app",
+        "description": "Exercicio22.app",
+        "peekOfCode": "def msg(*args):\n    print(f\"Os parametros sao {args}\")\nex2 = msg('nome = Fernando', 'idade = 33', 'profissao = professor')",
+        "detail": "Exercicio22.app",
+        "documentation": {}
+    },
+    {
+        "label": "ex2",
+        "kind": 5,
+        "importPath": "Exercicio22.app",
+        "description": "Exercicio22.app",
+        "peekOfCode": "ex2 = msg('nome = Fernando', 'idade = 33', 'profissao = professor')",
+        "detail": "Exercicio22.app",
+        "documentation": {}
+    },
+    {
+        "label": "funca",
+        "kind": 2,
+        "importPath": "Exercicio23.app",
+        "description": "Exercicio23.app",
+        "peekOfCode": "def funcao (*args):\n    print(sum(args))\nnumero1 = funcao(2, 4, 5)\nnumero2 = funcao(5, 5, 5)\nnumero3 = funcao(10, 5, 2)",
+        "detail": "Exercicio23.app",
+        "documentation": {}
+    },
+    {
+        "label": "numero1",
+        "kind": 5,
+        "importPath": "Exercicio23.app",
+        "description": "Exercicio23.app",
+        "peekOfCode": "numero1 = funcao(2, 4, 5)\nnumero2 = funcao(5, 5, 5)\nnumero3 = funcao(10, 5, 2)",
+        "detail": "Exercicio23.app",
+        "documentation": {}
+    },
+    {
+        "label": "numero2",
+        "kind": 5,
+        "importPath": "Exercicio23.app",
+        "description": "Exercicio23.app",
+        "peekOfCode": "numero2 = funcao(5, 5, 5)\nnumero3 = funcao(10, 5, 2)",
+        "detail": "Exercicio23.app",
+        "documentation": {}
+    },
+    {
+        "label": "numero3",
+        "kind": 5,
+        "importPath": "Exercicio23.app",
+        "description": "Exercicio23.app",
+        "peekOfCode": "numero3 = funcao(10, 5, 2)",
+        "detail": "Exercicio23.app",
+        "documentation": {}
+    },
+    {
+        "label": "justaposicao",
+        "kind": 2,
+        "importPath": "Exercicio24.app",
+        "description": "Exercicio24.app",
+        "peekOfCode": "def justaposicao(*args):\n    resultado = 0\n    for i in args:\n        resultado+= 1\n    return resultado\nresultado_justaposicao = justaposicao(1, 2, 3, 4, 5, 10, 11, 20, 40)\nprint(resultado_justaposicao)\n#*kwargs (Parametros nomeados)\ndef parametros_nomeados(**kwargs):\n    print(kwargs)",
+        "detail": "Exercicio24.app",
+        "documentation": {}
+    },
+    {
+        "label": "parametros_nomeados",
+        "kind": 2,
+        "importPath": "Exercicio24.app",
+        "description": "Exercicio24.app",
+        "peekOfCode": "def parametros_nomeados(**kwargs):\n    print(kwargs)\nparametros_nomeados(nome = \"Luiz\", idade = 18, estado_civil = \"Solteiro\")",
+        "detail": "Exercicio24.app",
+        "documentation": {}
+    },
+    {
+        "label": "resultado_justaposicao",
+        "kind": 5,
+        "importPath": "Exercicio24.app",
+        "description": "Exercicio24.app",
+        "peekOfCode": "resultado_justaposicao = justaposicao(1, 2, 3, 4, 5, 10, 11, 20, 40)\nprint(resultado_justaposicao)\n#*kwargs (Parametros nomeados)\ndef parametros_nomeados(**kwargs):\n    print(kwargs)\nparametros_nomeados(nome = \"Luiz\", idade = 18, estado_civil = \"Solteiro\")",
+        "detail": "Exercicio24.app",
+        "documentation": {}
+    },
+    {
+        "label": "parametros_nomeados(nome",
+        "kind": 5,
+        "importPath": "Exercicio24.app",
+        "description": "Exercicio24.app",
+        "peekOfCode": "parametros_nomeados(nome = \"Luiz\", idade = 18, estado_civil = \"Solteiro\")",
+        "detail": "Exercicio24.app",
+        "documentation": {}
+    },
+    {
+        "label": "fibonnaci",
+        "kind": 2,
+        "importPath": "Exercicio25.app",
+        "description": "Exercicio25.app",
+        "peekOfCode": "def fibonnaci(n):\n    if (n <= 1 and n >= 0):\n        return n\n    else:\n        return fibonnaci(n - 1) + fibonnaci(n - 2)\nnumero = int(input(\"Digite um Numero para encontrar seu Fibonnaci: \"))\nresultado = fibonnaci(numero - 1)\nprint(resultado)",
+        "detail": "Exercicio25.app",
+        "documentation": {}
+    },
+    {
+        "label": "numero",
+        "kind": 5,
+        "importPath": "Exercicio25.app",
+        "description": "Exercicio25.app",
+        "peekOfCode": "numero = int(input(\"Digite um Numero para encontrar seu Fibonnaci: \"))\nresultado = fibonnaci(numero - 1)\nprint(resultado)",
+        "detail": "Exercicio25.app",
+        "documentation": {}
+    },
+    {
+        "label": "resultado",
+        "kind": 5,
+        "importPath": "Exercicio25.app",
+        "description": "Exercicio25.app",
+        "peekOfCode": "resultado = fibonnaci(numero - 1)\nprint(resultado)",
+        "detail": "Exercicio25.app",
+        "documentation": {}
+    },
+    {
+        "label": "menu",
+        "kind": 5,
+        "importPath": "Exercicio26.app",
+        "description": "Exercicio26.app",
+        "peekOfCode": "menu = str(input(\"Deseja agendar uma consulta? (S ou N)\")).upper()\nif (menu == 'S'):\n    paciente = input(\"Por favor, digite o seu nome completo: \")\n    print(f\"{paciente}, escolha com qual médico deseja consultar: \")\n    print('1 - Dr. Joao')\n    print('2 - Dr. Wallace')\n    print('3 - Dr. Bruno Austregelio')\n    print('4 - Dr. Rafael Silva')\n    medico = int(input('Com qual médico deseja agendar consulta?'))\n    if (medico == 1):",
+        "detail": "Exercicio26.app",
+        "documentation": {}
+    },
+    {
+        "label": "medicos",
+        "kind": 5,
+        "importPath": "Exercicio26.medicos",
+        "description": "Exercicio26.medicos",
+        "peekOfCode": "medicos = [\"Dr. Joao\", \"Dr. Wallace\", \"Dr. Bruno Austregelio\", \"Dr. Rafael Silva\"]",
+        "detail": "Exercicio26.medicos",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "Exercicio3.app",
+        "description": "Exercicio3.app",
+        "peekOfCode": "lista = ['Ana', 'Carlos', 'Daiane', 'Fernando', 'Maria']\nlista[2] = 'Jamile'\nprint(lista)",
+        "detail": "Exercicio3.app",
+        "documentation": {}
+    },
+    {
+        "label": "lista[2]",
+        "kind": 5,
+        "importPath": "Exercicio3.app",
+        "description": "Exercicio3.app",
+        "peekOfCode": "lista[2] = 'Jamile'\nprint(lista)",
+        "detail": "Exercicio3.app",
+        "documentation": {}
+    },
+    {
+        "label": "nomes",
+        "kind": 5,
+        "importPath": "Exercicio4.app",
+        "description": "Exercicio4.app",
+        "peekOfCode": "nomes = ['Victor', 'Joao', 'Angelo', 'Yasmin']\nnomes.append('Paulo')\nprint(nomes)",
+        "detail": "Exercicio4.app",
+        "documentation": {}
+    },
+    {
+        "label": "nomes",
+        "kind": 5,
+        "importPath": "Exercicio5.app",
+        "description": "Exercicio5.app",
+        "peekOfCode": "nomes = ['Victor', 'Angelo', 'Rafael', 'Gabriel']\nnomes.insert(2, 'Eliana')\nprint(nomes)",
+        "detail": "Exercicio5.app",
+        "documentation": {}
+    },
+    {
+        "label": "nomes",
+        "kind": 5,
+        "importPath": "Exercicio6.app",
+        "description": "Exercicio6.app",
+        "peekOfCode": "nomes = ['Victor', 'Angelo', 'Rafael', 'Gabriel', 'Eduardo']\nprint(nomes[1], nomes[2], nomes[3])\nprint(nomes[4])",
+        "detail": "Exercicio6.app",
+        "documentation": {}
+    },
+    {
+        "label": "nomes",
+        "kind": 5,
+        "importPath": "Exercicio7.app",
+        "description": "Exercicio7.app",
+        "peekOfCode": "nomes = ['Victor', 'José', 'Eduardo', 'Pedro', 'Manuel', 'Isabela']\nprint(nomes[1:4])\nprint(nomes[-1])",
+        "detail": "Exercicio7.app",
+        "documentation": {}
+    },
+    {
+        "label": "print(dict(Papel",
+        "kind": 5,
+        "importPath": "Exercicio8.app",
+        "description": "Exercicio8.app",
+        "peekOfCode": "print(dict(Papel = '5.00', Caneta = '4.50', Lapis = '3.50', Relógio = '25.00', Capacete = '20.00'))",
+        "detail": "Exercicio8.app",
+        "documentation": {}
+    },
+    {
+        "label": "itens",
+        "kind": 5,
+        "importPath": "Exercicio9.app",
+        "description": "Exercicio9.app",
+        "peekOfCode": "itens = ['Caneta', 'Lápis', 'Borracha', 'Caderno']\nprecos = ['1,99', '0,99', '0,50', '9,90']\ndicionario1 = dict(keys = itens, values = precos)\nprint(dicionario1)\nprint(type(dicionario1))",
+        "detail": "Exercicio9.app",
+        "documentation": {}
+    },
+    {
+        "label": "precos",
+        "kind": 5,
+        "importPath": "Exercicio9.app",
+        "description": "Exercicio9.app",
+        "peekOfCode": "precos = ['1,99', '0,99', '0,50', '9,90']\ndicionario1 = dict(keys = itens, values = precos)\nprint(dicionario1)\nprint(type(dicionario1))",
+        "detail": "Exercicio9.app",
+        "documentation": {}
+    },
+    {
+        "label": "dicionario1",
+        "kind": 5,
+        "importPath": "Exercicio9.app",
+        "description": "Exercicio9.app",
+        "peekOfCode": "dicionario1 = dict(keys = itens, values = precos)\nprint(dicionario1)\nprint(type(dicionario1))",
+        "detail": "Exercicio9.app",
+        "documentation": {}
+    }
+]
